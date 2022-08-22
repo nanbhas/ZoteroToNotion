@@ -12,6 +12,8 @@ import logging
 import string
 import random
 
+import shutil
+
 def strToBool(v):
     ''' Converts commonly inputted bool strings to type bool '''
     if v.lower() in ('yes', 'true', 't', 'y', '1'):
@@ -48,6 +50,25 @@ def safeMkdir(path):
     except OSError:
         #print('Directory already exists')
         pass
+
+def copyFile(source, destination):
+    """
+    Copy file from source to destination
+    """
+    try:
+        shutil.copy(source, destination)
+        print("Copied file: " + source + " to " + destination)
+    except shutil.SameFileError:
+        print("Source and destination are the same file")
+    except FileNotFoundError:
+        print("Source file does not exist")
+    except IsADirectoryError:
+        print("Destination is a directory")
+    except PermissionError:
+        print("Permission denied")
+    except:
+        print("Error while copying file")
+        
 
 class Params():
     """ 
