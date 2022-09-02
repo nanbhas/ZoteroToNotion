@@ -4,18 +4,15 @@ Author: Nandita Bhaskhar
 Zotero to Notion helper functions
 """
 
-import os
 import sys
 sys.path.append('../')
 
 import time
 import arrow
-import json
 
 from tqdm import tqdm
 
 import sqlite3
-import pandas as pd
 
 import globalStore.constants as constants
 

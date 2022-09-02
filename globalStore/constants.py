@@ -11,6 +11,7 @@ import json
 NOTION_SECRET_FILE = "../secrets/secrets_notion.json"
 ZOTERO_SECRET_FILE = "../secrets/secrets_zotero.json"
 
+# include zotero_local_main_folderpath and zotero_local_copy_folderpath
 with open(ZOTERO_SECRET_FILE, 'r') as f:
     zotero_secrets = json.load(f)
 
