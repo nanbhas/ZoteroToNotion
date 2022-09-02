@@ -19,7 +19,7 @@ from lib.utils import *
 # pass in arguments to run the script
 PYTHON = sys.executable
 parser = argparse.ArgumentParser()
-parser.add_argument("--copyZotero", default=False, type = strToBool, help="copy zotero database to local storage")
+parser.add_argument("--copyZotero", default=True, type = strToBool, help="copy zotero database to local storage")
 
 # main script
 if __name__ == "__main__":
