@@ -55,3 +55,7 @@ if __name__ == "__main__":
     print('Starting porting data to notion')
     portZoteroDataToNotion(zoteroDataList, notion, notionDB_id)
     print('Done porting data to notion')
+
+    end = arrow.get(time.time()).to('US/Pacific').format('YYYY-MM-DD HH:mm:ss ZZ')
+    print('\n\n' + 'Ending at ' + str(end)) 
+    print('==========================================================\n\n')
