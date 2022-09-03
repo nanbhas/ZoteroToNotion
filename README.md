@@ -1,6 +1,6 @@
 <div align="center">    
  
-# ZoteroToNotion     
+# Zotero To Notion     
   
 </div>
  
@@ -63,5 +63,14 @@ Date properties: Created At, Last Modified At
 - [Notion API Python SDK](https://github.com/ramnes/notion-sdk-py)
 
 ## If you use it in your work and want to adapt this code, please consider starring this repo or forking from it!
+
+```
+@misc{nanbhas2022_zoteroToNotion,
+  title={Zotero To Notion},
+  author={Nandita Bhaskhar},
+  journal={GitHub Repo, https://github.com/nanbhas/ZoteroToNotion},
+  year={2022}
+}
+```  
  
 
