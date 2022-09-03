@@ -1,7 +1,6 @@
 # Custom
-secrets/README.md
-secrets/secrets_notion.json
-secrets/secrets_zotero.json
+secrets/*
+!secrets/*_dummy.json
 data_temp
 STDOUTlog.txt
 
