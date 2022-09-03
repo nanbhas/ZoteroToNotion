@@ -44,7 +44,7 @@ This project allows you to export newly added or recently updated documents in Z
 5. Create a database on Notion to contain all the entries from Zotero. Make sure it has the following properties. If you want to add more properties or remove, modify the function `getDataFromZoteroDatabases` and `getNotionPageEntryFromPropObj` in `lib/port_utils.py`.
 ```
 Title property: Citation
-Text properties: Title, UID, Authors, Venue, Year, Abstract, Type, BibTex, Filename, CollectionNames, Zotero Tags
+Text properties: Title, UID, Authors, Venue, Year, Abstract, Type, BibTex, Filename, Collection Names, Zotero Tags
 Url properties: URL
 Date properties: Created At, Last Modified At
 ```
