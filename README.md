@@ -56,11 +56,13 @@ Date properties: Created At, Last Modified At
 }
 ```
 7. Run the python script `src/zoteroToNotion.py` with `--copyZotero` argument as True (default)
-8. You can periodically run this file again as a script `scripts/runZoteroToNotion.sh` using a crontab job to get periodic updates
+8. Currently, the logic reads all items from the Zotero database and all items in the Notion database. For each item in Zotero, we check if it already exists in Notion. If yes, we check if the last modified time on Zotero is AFTER the last edited time in Notion. If yes, we update the Notion entry. If not, there's nothing to update. If the Zotero item doesn't exist in Notion, we create a brand new row in Notion.
+9. You can periodically run this file again as a script `scripts/runZoteroToNotion.sh` using a crontab job to get periodic updates
 
 ## Sources
 
 - [Notion API Python SDK](https://github.com/ramnes/notion-sdk-py)
+- [Zotero](https://www.zotero.org/): Yes, it's open source!! :)
 
 ## If you use it in your work and want to adapt this code, please consider starring this repo or forking from it!
 
