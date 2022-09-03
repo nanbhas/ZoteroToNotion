@@ -1,6 +1,6 @@
 """
 Author: Nandita Bhaskhar
-End-to-end script for getting updates from Zotero (local) on to the Notion Database of your choice
+Test script for reading Notion API correctly
 """
 
 import sys
