@@ -7,7 +7,7 @@
 ## Description   
 This project allows you to export newly added or recently updated documents in Zotero (local database, synced via Google Drive) to your Notion database via the Notion APIs and by reading the `zotero.sqlite` database LOCALLY. If you'd like the export to happen as soon as you make a change in Zotero, then you can run the script `scripts/runZoteroToNotion.sh` peridocially at a reasonable frequency via a `crontab` job. 
 
-## Directory Structureß
+## Directory Structure
 
 ```
 .
