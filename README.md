@@ -44,7 +44,7 @@ This project allows you to export newly added or recently updated documents in Z
 
 
 ---
-![ZoteroToNotionScreenshot](docs/ZoteroToNotion_screenshot.png)
+![ZoteroToNotionScreenshot](docs/ZoteroToNotion_screenshot.PNG)
 ---
 
 ## Usage
