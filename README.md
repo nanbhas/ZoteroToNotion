@@ -81,7 +81,7 @@ Date properties: Created At, Last Modified At
 @misc{nanbhas2022_zoteroToNotion,
   title={Zotero To Notion},
   author={Nandita Bhaskhar},
-  journal={GitHub Repo, https://github.com/nanbhas/ZoteroToNotion},
+  howpublished={GitHub Repo, https://github.com/nanbhas/ZoteroToNotion},
   year={2022}
 }
 ```  
