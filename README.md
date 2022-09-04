@@ -49,7 +49,7 @@ This project allows you to export newly added or recently updated documents in Z
 
 ## Usage
 1. Create a python conda env using `requirements.txt`
-2. Make sure your local Zotero database is synced to an accessible path via Google Drive (READ_ONLY_DIRECTORY). Ensure that the plugins `BetterBib` and `Zotfile` are installed.
+2. Ensure that the plugins `BetterBib` and `Zotfile` are installed. If you want to run this on an automated schedule on server using Crontab, one option is to ensure your local Zotero database is synced to an accessible path via Google Drive and use it as a READ_ONLY_DIRECTORY.
 3. Register a private integration on your Notion workspace (follow instructions [online](https://www.notion.so/help/create-integrations-with-the-notion-api#create-an-internal-integration))
 4. Obtain its `notionToken`
 5. Create a database on Notion to contain all the entries from Zotero. Make sure it has the following properties. If you want to add more properties or remove, modify the function `getDataFromZoteroDatabases` and `getNotionPageEntryFromPropObj` in `lib/port_utils.py`.
